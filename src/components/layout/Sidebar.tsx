@@ -45,6 +45,16 @@ export default function Sidebar() {
               Settings
             </NavLink>
           </li>
+             <li>
+            <NavLink
+              to="/performancelab"
+              className={({ isActive }) =>
+                `${linkBase} ${isActive ? "bg-gray-200 dark:bg-gray-700" : ""}`
+              }
+            >
+              Performance Lab
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </aside>
