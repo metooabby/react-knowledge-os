@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
   return (
     <main className="flex-1 space-y-8 p-8">
-      <section className="rounded-lg bg-white p-6 shadow-sm">
+      <section className="rounded-lg bg-white p-6 shadow-sm ">
         <h3 className="mb-2 text-lg font-medium">Counter</h3>
 
         <p className="mb-4">
