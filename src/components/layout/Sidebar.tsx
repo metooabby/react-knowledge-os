@@ -55,6 +55,16 @@ export default function Sidebar() {
               Performance Lab
             </NavLink>
           </li>
+             <li>
+            <NavLink
+              to="/trashComponent"
+              className={({ isActive }) =>
+                `${linkBase} ${isActive ? "bg-gray-200 dark:bg-gray-700" : ""}`
+              }
+            >
+              Crash Component
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </aside>
