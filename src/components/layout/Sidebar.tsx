@@ -65,6 +65,16 @@ export default function Sidebar() {
               Crash Component
             </NavLink>
           </li>
+            <li>
+            <NavLink
+              to="/suspense"
+              className={({ isActive }) =>
+                `${linkBase} ${isActive ? "bg-gray-200 dark:bg-gray-700" : ""}`
+              }
+            >
+              Suspense
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </aside>

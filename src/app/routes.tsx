@@ -6,6 +6,7 @@ import Settings from "../pages/Settings";
 import NotFound from "../pages/NotFound";
 import PerformanceLab from "../pages/PerformanceLab";
 import TrashComponent from "../pages/TrashComponent";
+import Suspense from "../pages/Suspense";
 
 export const router = createBrowserRouter([
     {
@@ -17,6 +18,7 @@ export const router = createBrowserRouter([
             { path: "settings", element: <Settings /> },
             { path: "performanceLab", element: <PerformanceLab /> },
             { path: "trashComponent", element: <TrashComponent /> },
+            { path: "suspense", element: <Suspense /> },
         ],
     },
     {
